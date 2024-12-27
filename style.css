@@ -1,0 +1,25 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: inherit;
+    height: 100%;
+}
+
+html{
+    font-size: 18px;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: 1em;
+}
