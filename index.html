@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Time tracking dashboard</title>
-
+  <script defer src="index.js"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -37,18 +37,18 @@
 
   </div> <!-- user-->
 
-  <div class="card"> 
-    <div class="card-header">
-
+  <div class="item"> 
+    <div class="item-header">
+      <img src="images/icon-work.svg" class="icon" />
     </div>
-    <div class="card-footer">
-      <div>
+    <div class="item-footer">
+      <div class="item-footer--item1">
         <p>Work</p>
-        <p>32hrs</p>
+        <p class="light">...</p>
       </div>
-      <div>
-        <p>...</p>
-        <p>Last Week - 36hrs</p>
+      <div class="item-footer--item2">
+        <p class="medium">32hrs</p>
+        <p class="light">Last Week - 36hrs</p>
       </div>
     </div>
   </div>
